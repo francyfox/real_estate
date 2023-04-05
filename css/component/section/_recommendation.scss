@@ -1,0 +1,81 @@
+.recommendation {
+  .tag {
+    margin-bottom: 22px;
+  }
+
+  &--header {
+    margin-bottom: 48px;
+  }
+
+  .title {
+    margin-bottom: 18px;
+    letter-spacing: 0.85px;
+  }
+
+  .text {
+    max-width: 492px;
+    letter-spacing: 0;
+  }
+
+  &--card {
+    padding: 16px;
+    box-shadow: 0 0 0 1px var(--c-grey-900);
+  }
+
+  ._h-g {
+    gap: 34px;
+  }
+
+  .card {
+    picture {
+      margin-bottom: 14px;
+    }
+
+    &--title {
+      margin-bottom: 14px;
+      color: rgb(var(--c-rgb-title));
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: -0.1px;
+    }
+
+    &--subtitle {
+      margin-bottom: 23px;
+      color: var(--c-grey-900);
+      font-weight: 400;
+    }
+
+    &--price {
+      margin-right: 30px;
+      color: rgb(var(--c-rgb-primary-800));
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    &--tag {
+      padding: 4px;
+      background: var(--c-grey-800);
+
+      span {
+        font-size: 16px;
+        font-weight: 400;
+      }
+
+      span:first-child {
+        color: rgb(var(--c-rgb-title));
+      }
+
+      span:last-child {
+        color: var(--c-grey-900);
+      }
+    }
+
+    &--footer {
+      margin-bottom: 22px;
+    }
+
+    .btn {
+      padding: 15px 24px 12px
+    }
+  }
+}

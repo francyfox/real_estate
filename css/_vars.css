@@ -1,0 +1,17 @@
+:root {
+    --c-primary-900: #4BA586;
+    --c-rgb-primary-800: 105, 185, 157;
+
+    --c-rgb-hero: 5, 68, 87;
+    --c-rgb-title: 31, 39, 68;
+    --c-grey-900: #A6A6A6;
+    --c-grey-800: #F5F5F5;
+    --c-grey-700: #F8F9FE;
+    --c-white: #FEFEFF;
+
+    --p-tag: 12px 24px;
+    --p-btn: 20px 48px 18px;
+    --p-section: 120px 0;
+
+    --w-card: 376px;
+}

@@ -1,0 +1,38 @@
+.tab {
+  &--nav {
+    li {
+      .btn {
+        padding: 12px 32px 16px;
+        color: rgb(var(--c-rgb-primary-800));
+        font-weight: 500;
+        font-size: 24px;
+      }
+      
+      &:not(.is-active) .btn {
+        color: var(--c-grey-900);
+        background: transparent;
+
+        &:hover{
+          color: rgb(var(--c-rgb-primary-800));
+        }
+      }
+    }
+  }
+
+  &--list {
+    position: relative;
+  }
+
+  &--item {
+    padding: 32px;
+    background: var(--c-white);
+    box-shadow: 35px 35px 65px rgba(146, 106, 120, 0.17);
+
+    &:not(.is-active) {
+      visibility: hidden;
+      top: 0;
+      left: 0;
+      position: absolute;
+    }
+  }
+}

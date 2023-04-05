@@ -1,0 +1,25 @@
+.logo {
+  &:hover .logo--icon {
+    background: rgb(var(--c-rgb-hero));
+  }
+
+  &--icon {
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: var(--c-primary-900);
+    color: var(--c-white);
+    font-weight: 900;
+    font-size: 24px;
+    border-radius: 100%;
+    flex-shrink: 0;
+    transition: background-color .1s ease-in-out;
+  }
+
+  &--name {
+    font-size: 24px;
+  }
+}

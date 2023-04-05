@@ -4,29 +4,677 @@
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-    <link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Начало: Данный блок удалять нельзя -->
-    <div class="maketforfigma">
-        <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="img/logo.png">
-        </a>
-        <div>
-            <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
-            </p>
-            <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
-            </p>
-        </div>
-    </div>
-    <!-- Конец -->
+<!-- Начало: Данный блок удалять нельзя -->
+<div class="maketforfigma">
+	<a href="https://t.me/s/FigmaToHTML" target="_blank">
+		<img src="img/logo.png">
+	</a>
+	<div>
+		<p>
+			Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a
+				href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
+		</p>
+		<p>
+			При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a>
+			пользователь получил оплату за верстку этого макета.
+		</p>
+	</div>
+</div>
+<!-- Конец -->
 
-    <div class="main">
-        В данном блоке размещается верстка
-    </div>
+<div class="main">
+	<header class="header  __bg-grey">
+		<div class="container">
+			<div class="row _h-jc-sb _h-ai-c">
+				<a href="#" title="Return to home" class="logo row _h-ai-c">
+					<span class="logo--icon">
+						M
+					</span>
+					<span class="logo--name">
+						Mulih
+					</span>
+				</a>
+				<div class="navbar row">
+					<nav class="row _h-ai-c">
+						<li><a href="#" class="is-active">Home</a></li>
+						<li><a href="#">Property</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Service</a></li>
+						<li><a href="#">Contact</a></li>
+					</nav>
+					<div class="row _h-gap-sm _h-ai-c">
+						<button type="button" class="btn __transparent">
+							<span>Sign in</span>
+						</button>
+						<button type="button" class="btn __primary">
+							<span>Login</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="hero __bg-grey">
+		<div class="container">
+			<div class="col">
+				<div class="tag">REAL ESTATE</div>
+				<div class="title _t-h1">
+					Let's hunt for your dream residence
+				</div>
+				<div class="text">
+					Explore our range of beautiful properties with the addition of separate accommodation suitable for
+					you.
+				</div>
+
+				<div class="tab">
+					<ul class="tab--nav row">
+						<li class="is-active">
+							<button type="button" class="btn __white">
+								Buy
+							</button>
+						</li>
+						<li>
+							<button type="button" class="btn __white">
+								Rent
+							</button>
+						</li>
+					</ul>
+					<ul class="tab--list">
+						<li class="tab--item is-active">
+							<form method="get" action="#" class="row filter _h-gap-xl">
+								<div class="col _h-gap-sm">
+									<span class="filter--label">
+										Location
+									</span>
+									<div class="filter--dropdown">
+										<select>
+											<option>Bogor, Jawa Barat</option>
+											<option>Bogor, Jawa Barat</option>
+											<option>Bogor, Jawa Barat</option>
+										</select>
+									</div>
+								</div>
+								<div class="col _h-gap-sm">
+									<span class="filter--label">
+										Type
+									</span>
+									<div class="filter--dropdown">
+										<select>
+											<option>Home</option>
+											<option>Home</option>
+											<option>Home</option>
+										</select>
+									</div>
+								</div>
+								<div class="col _h-gap-sm">
+									<span class="filter--label">
+										Price Range
+									</span>
+									<div class="filter--dropdown">
+										<select>
+											<option>$200-$350</option>
+											<option>$200-$350</option>
+											<option>$200-$350</option>
+										</select>
+									</div>
+								</div>
+								<div class="col">
+									<button type="submit" class="btn __primary">
+										Search
+									</button>
+								</div>
+							</form>
+						</li>
+						<li class="tab--item">
+							<form method="get" action="#" class="row filter _h-gap-xl">
+								<div class="col _h-gap-sm">
+                                                <span class="filter--label">
+                                                    Location
+                                                </span>
+									<select class="filter--dropdown">
+										<option>Bogor, Jawa Barat</option>
+										<option>Bogor, Jawa Barat</option>
+										<option>Bogor, Jawa Barat</option>
+									</select>
+								</div>
+								<div class="col _h-gap-sm">
+                                                <span class="filter--label">
+                                                    Type
+                                                </span>
+									<select class="filter--dropdown">
+										<option>Home</option>
+										<option>Home</option>
+										<option>Home</option>
+									</select>
+								</div>
+								<div class="col _h-gap-sm">
+                                                <span class="filter--label">
+                                                    Price Range
+                                                </span>
+									<select class="filter--dropdown">
+										<option>$200-$350</option>
+										<option>$200-$350</option>
+										<option>$200-$350</option>
+									</select>
+								</div>
+								<div class="col">
+									<button type="submit" class="btn __primary">
+										Search
+									</button>
+								</div>
+							</form>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="recommendation __bg-white">
+		<div class="container">
+			<div class="col">
+				<div class="tag">
+					DISCOVER
+				</div>
+				<div class="title _t-h2">
+					Best recomendation
+				</div>
+				<div class="recommendation--header row _h-jc-sb _h-w-100">
+					<div class="text">
+						Discover our exclusive selection of the finest one-of-a-kind luxury properties architectural
+						masterpieces.
+					</div>
+					<a href="#" class="link">
+						<span>Learn More</span>
+						<svg class="icon" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd"
+								  d="M20.0001 10C20.0001 15.52 15.5101 20 10.0001 20L9.72036 19.9962C4.32954 19.8478 0.00012207 15.4264 0.00012207 10C0.00012207 4.49 4.48012 0 10.0001 0C15.5101 0 20.0001 4.49 20.0001 10ZM8.02012 6C7.73012 6.3 7.73012 6.77 8.03012 7.06L10.9801 10L8.03012 12.94C7.73012 13.23 7.73012 13.71 8.02012 14C8.32012 14.3 8.79012 14.3 9.08012 14L12.5701 10.53C12.7101 10.39 12.7901 10.2 12.7901 10C12.7901 9.8 12.7101 9.61 12.5701 9.47L9.08012 6C8.94012 5.85 8.75012 5.78 8.56012 5.78C8.36012 5.78 8.17012 5.85 8.02012 6Z"
+								  fill="#69B99D"/>
+						</svg>
+					</a>
+				</div>
+				<div class="_h-g _h-g-3">
+					<div class="card recommendation--card col">
+						<picture>
+							<img src="img/rec1.jpg" width="344" height="238" alt="Perum griya asri">
+						</picture>
+						<div class="card--title">
+							Perum griya asri
+						</div>
+						<div class="card--subtitle">
+							Bogor, Jawa Barat
+						</div>
+
+						<div class="card--footer row _h-ai-c">
+							<div class="card--price">$25,000</div>
+							<div class="card--tag">
+								<span>360<sup>m2</sup></span>
+								<span>Living Area</span>
+							</div>
+						</div>
+
+						<button type="button" class="btn __outlined _h-w-100">
+							Send Inquiry
+						</button>
+					</div>
+					<div class="card recommendation--card col">
+						<picture>
+							<img src="img/rec2.jpg" width="344" height="238" alt="Perum griya asri">
+						</picture>
+						<div class="card--title">
+							Perum kencana asri
+						</div>
+						<div class="card--subtitle">
+							Bogor, Jawa Barat
+						</div>
+
+						<div class="card--footer row _h-ai-c">
+							<div class="card--price">$35,000</div>
+							<div class="card--tag">
+								<span>360<sup>m2</sup></span>
+								<span>Living Area</span>
+							</div>
+						</div>
+
+						<button type="button" class="btn __outlined _h-w-100">
+							Send Inquiry
+						</button>
+					</div>
+					<div class="card recommendation--card col">
+						<picture>
+							<img src="img/rec3.jpg" width="344" height="238" alt="Perum rakjel elit">
+						</picture>
+						<div class="card--title">
+							Perum rakjel elit
+						</div>
+						<div class="card--subtitle">
+							Bogor, Jawa Barat
+						</div>
+
+						<div class="card--footer row _h-ai-c">
+							<div class="card--price">$40,000</div>
+							<div class="card--tag">
+								<span>360<sup>m2</sup></span>
+								<span>Living Area</span>
+							</div>
+						</div>
+
+						<button type="button" class="btn __outlined _h-w-100">
+							Send Inquiry
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="advante __bg-grey">
+		<div class="container">
+			<div class="col">
+				<div class="tag">
+					OUR ADVANTE
+				</div>
+				<div class="title advante--header _t-h2">
+					Giving you peace <br> of mind
+				</div>
+				<div class="_h-g _h-g-3">
+					<div class="advante--card card col">
+						<svg class="advante--card-icon" width="54" height="54" viewBox="0 0 54 54" fill="none"
+							 xmlns="http://www.w3.org/2000/svg">
+							<g id="Iconly/Bold/Heart">
+								<g id="Heart">
+									<path id="Heart_2" fill-rule="evenodd" clip-rule="evenodd"
+										  d="M35.662 5.62658C37.0818 5.62658 38.4993 5.82683 39.847 6.27908C48.1518 8.97908 51.1443 18.0916 48.6445 26.0566C47.227 30.1268 44.9095 33.8416 41.8743 36.8768C37.5295 41.0843 32.7618 44.8194 27.6295 48.0368L27.067 48.3766L26.482 48.0144C21.3318 44.8194 16.537 41.0844 12.1518 36.8543C9.1368 33.8191 6.81705 30.1268 5.37705 26.0566C2.83455 18.0916 5.82705 8.97908 14.2218 6.23183C14.8743 6.00683 15.547 5.84933 16.222 5.76158H16.492C17.1243 5.66933 17.752 5.62658 18.382 5.62658H18.6295C20.047 5.66933 21.4195 5.91683 22.7493 6.36908H22.882C22.972 6.41183 23.0395 6.45908 23.0845 6.50183C23.5818 6.66158 24.052 6.84158 24.502 7.08908L25.357 7.47158C25.5636 7.58177 25.7955 7.75013 25.996 7.89564C26.1229 7.98783 26.2373 8.07085 26.3245 8.12408C26.3613 8.14574 26.3986 8.16753 26.4362 8.18949C26.6291 8.30211 26.8301 8.41942 26.9995 8.54933C29.4993 6.63908 32.5345 5.60408 35.662 5.62658ZM41.6471 21.8266C42.5696 21.8018 43.357 21.0616 43.4245 20.1143V19.8466C43.492 16.6943 41.5818 13.8391 38.6771 12.7366C37.7546 12.4193 36.7421 12.9166 36.4046 13.8616C36.0896 14.8066 36.5846 15.8416 37.5296 16.1768C38.9718 16.7168 39.9371 18.1366 39.9371 19.7093V19.7791C39.8943 20.2943 40.0496 20.7916 40.3646 21.1741C40.6796 21.5566 41.1521 21.7793 41.6471 21.8266Z"
+										  fill="#69B99D"/>
+								</g>
+							</g>
+						</svg>
+						<div class="title _t-h3">Comfortable</div>
+						<div class="text">
+							Enjoy lifestyle amenities designed to provide every homeowners modern comfort, a stone's
+							throw away from schools, churches, and hospitals.
+						</div>
+					</div>
+					<div class="advante--card card col">
+						<svg class="advante--card-icon" width="54" height="54" viewBox="0 0 54 54" fill="none"
+							 xmlns="http://www.w3.org/2000/svg">
+							<g id="Iconly/Bold/Shield Done">
+								<g id="Shield Done">
+									<path id="Shield Done_2" fill-rule="evenodd" clip-rule="evenodd"
+										  d="M26.3882 49.3057C26.6374 49.4359 26.916 49.5021 27.1946 49.4999C27.4732 49.4977 27.7496 49.4293 28.001 49.2969L36.0287 45.0055C38.3052 43.792 40.0879 42.4351 41.4787 40.8554C44.5027 37.4135 46.154 33.0206 46.1246 28.4909L46.0294 13.5495C46.0204 11.8285 44.89 10.2929 43.2184 9.73466L28.2842 4.72402C27.3849 4.41954 26.3995 4.42616 25.5161 4.73946L10.6386 9.92882C8.97592 10.5091 7.86599 12.0558 7.87506 13.7789L7.97019 28.7094C7.99964 33.2456 9.70757 37.6186 12.7814 41.0253C14.1858 42.583 15.9843 43.92 18.2857 45.1137L26.3882 49.3057ZM24.263 31.7451C24.5982 32.0672 25.0331 32.2261 25.4681 32.2217C25.903 32.2195 26.3356 32.0562 26.6663 31.7297L35.4393 23.0807C36.0985 22.4298 36.0917 21.384 35.4257 20.742C34.7575 20.0999 33.6815 20.1043 33.0224 20.7552L25.4431 28.226L22.3399 25.243C21.6717 24.6009 20.598 24.6075 19.9365 25.2584C19.2774 25.9093 19.2842 26.9551 19.9524 27.5971L24.263 31.7451Z"
+										  fill="#69B99D"/>
+								</g>
+							</g>
+						</svg>
+						<div class="title _t-h3">Extra security</div>
+						<div class="text">
+							You can connect with potential tenants without having to share your phone number. We also
+							require all users to register to validate their legitimacy.
+						</div>
+					</div>
+					<div class="advante--card card col">
+						<svg class="advante--card-icon" width="54" height="54" viewBox="0 0 54 54" fill="none"
+							 xmlns="http://www.w3.org/2000/svg">
+							<g id="Iconly/Bold/Star">
+								<g id="Star">
+									<path id="Star_2"
+										  d="M40.3166 32.2202C39.7339 32.785 39.4661 33.6017 39.5989 34.4027L41.5991 45.4727C41.7679 46.411 41.3719 47.3605 40.5866 47.9027C39.8171 48.4652 38.7934 48.5327 37.9541 48.0827L27.9889 42.8852C27.6424 42.7007 27.2576 42.6017 26.8639 42.5905H26.2541C26.0426 42.622 25.8356 42.6895 25.6466 42.793L15.6791 48.0152C15.1864 48.2627 14.6284 48.3505 14.0816 48.2627C12.7496 48.0107 11.8609 46.7417 12.0791 45.403L14.0816 34.333C14.2144 33.5252 13.9466 32.704 13.3639 32.1302L5.23912 24.2552C4.55962 23.596 4.32337 22.606 4.63387 21.7127C4.93537 20.8217 5.70487 20.1715 6.63412 20.0252L17.8166 18.403C18.6671 18.3152 19.4141 17.7977 19.7966 17.0327L24.7241 6.93024C24.8411 6.70524 24.9919 6.49824 25.1741 6.32274L25.3766 6.16524C25.4824 6.04824 25.6039 5.95149 25.7389 5.87274L25.9841 5.78274L26.3666 5.62524H27.3139C28.1599 5.71299 28.9046 6.21924 29.2939 6.97524L34.2866 17.0327C34.6466 17.7685 35.3464 18.2792 36.1541 18.403L47.3366 20.0252C48.2816 20.1602 49.0714 20.8127 49.3841 21.7127C49.6789 22.615 49.4246 23.605 48.7316 24.2552L40.3166 32.2202Z"
+										  fill="#69B99D"/>
+								</g>
+							</g>
+						</svg>
+						<div class="title _t-h3">Luxury</div>
+						<div class="text">
+							Find out how we provide the highest standard of professional property management to give you
+							all the benefits of property.
+						</div>
+					</div>
+					<div class="advante--card card col">
+						<svg class="advante--card-icon" width="54" height="54" viewBox="0 0 54 54" fill="none"
+							 xmlns="http://www.w3.org/2000/svg">
+							<g id="Iconly/Bold/Ticket Star">
+								<g id="Ticket Star">
+									<path id="Ticket Star_2" fill-rule="evenodd" clip-rule="evenodd"
+										  d="M44.4622 27.0022C44.4622 28.8326 45.9653 30.3219 47.8125 30.3219C48.744 30.3219 49.5 31.071 49.5 31.9939V38.0157C49.5 43.1077 45.3195 47.25 40.1805 47.25H13.8218C8.68275 47.25 4.5 43.1077 4.5 38.0157V31.9939C4.5 31.071 5.256 30.3219 6.1875 30.3219C8.037 30.3219 9.54 28.8326 9.54 27.0022C9.54 25.2187 8.09775 23.8766 6.1875 23.8766C5.73975 23.8766 5.31225 23.7004 4.995 23.3861C4.67775 23.0717 4.5 22.6459 4.5 22.2045L4.5045 15.9866C4.5045 10.8945 8.685 6.75 13.824 6.75H40.176C45.315 6.75 49.4977 10.8945 49.4977 15.9866L49.5 22.0105C49.5 22.4519 49.3223 22.88 49.0073 23.1921C48.69 23.5065 48.2625 23.6826 47.8125 23.6826C45.9653 23.6826 44.4622 25.1719 44.4622 27.0022ZM32.0669 28.4582L34.7197 25.8988C35.1809 25.4573 35.3407 24.8063 35.1404 24.2044C34.9424 23.6024 34.4249 23.1744 33.7994 23.0874L30.1342 22.5568L28.4939 19.2662C28.2127 18.6999 27.6412 18.3477 27.0044 18.3454H26.9999C26.3654 18.3454 25.7939 18.6977 25.5082 19.264L23.8679 22.5568L20.2094 23.0852C19.5772 23.1744 19.0597 23.6024 18.8594 24.2044C18.6614 24.8063 18.8212 25.4573 19.2802 25.8988L21.9329 28.4582L21.3074 32.0765C21.1994 32.7008 21.4537 33.3206 21.9712 33.6929C22.2637 33.9002 22.6034 34.0072 22.9477 34.0072C23.2109 34.0072 23.4764 33.9426 23.7194 33.8155L26.9999 32.1078L30.2737 33.811C30.8407 34.112 31.5134 34.0652 32.0287 33.6907C32.5484 33.3206 32.8027 32.7008 32.6947 32.0765L32.0669 28.4582Z"
+										  fill="#69B99D"/>
+								</g>
+							</g>
+						</svg>
+						<div class="title _t-h3">Best price</div>
+						<div class="text">
+							Not sure what you should be charging for your property? Let us do the numbers for
+							you—contact us today for a free rental appraisal on your home.
+						</div>
+					</div>
+					<div class="advante--card card col">
+						<svg class="advante--card-icon" width="54" height="54" viewBox="0 0 54 54" fill="none"
+							 xmlns="http://www.w3.org/2000/svg">
+							<g id="Iconly/Bold/Location">
+								<g id="Location">
+									<path id="Location_2" fill-rule="evenodd" clip-rule="evenodd"
+										  d="M7.875 23.215C7.875 12.8653 16.5237 4.5 26.9853 4.5C37.4763 4.5 46.125 12.8653 46.125 23.215C46.125 28.4303 44.2283 33.2722 41.1064 37.376C37.6623 41.9029 33.4174 45.847 28.6392 48.943C27.5457 49.6584 26.5587 49.7124 25.3585 48.943C20.5532 45.847 16.3082 41.9029 12.8936 37.376C9.76946 33.2722 7.875 28.4303 7.875 23.215ZM20.687 23.7977C20.687 27.2649 23.5162 29.9918 26.9852 29.9918C30.4565 29.9918 33.313 27.2649 33.313 23.7977C33.313 20.3576 30.4565 17.4979 26.9852 17.4979C23.5162 17.4979 20.687 20.3576 20.687 23.7977Z"
+										  fill="#69B99D"/>
+								</g>
+							</g>
+						</svg>
+						<div class="title _t-h3">Strategic location</div>
+						<div class="text">
+							located in the city center close to the shopping center. Very good for areas surrounded by
+							international education centers, start-up office centers.
+						</div>
+					</div>
+					<div class="advante--card card col">
+						<svg class="advante--card-icon" width="54" height="54" viewBox="0 0 54 54" fill="none"
+							 xmlns="http://www.w3.org/2000/svg">
+							<g id="Iconly/Bold/Graph">
+								<g id="Graph">
+									<path id="Graph_2" fill-rule="evenodd" clip-rule="evenodd"
+										  d="M27.7343 4.97174C28.0936 4.64923 28.5689 4.48017 29.0554 4.50186C39.3398 4.80972 47.9348 12.2756 49.4926 22.2539C49.5024 22.3135 49.5024 22.3743 49.4926 22.4338C49.5261 22.906 49.3665 23.3718 49.0491 23.7282C48.7318 24.0846 48.2827 24.3022 47.8013 24.333L30.5225 25.4725C29.9511 25.5231 29.3844 25.3351 28.9616 24.9546C28.5389 24.574 28.2992 24.0363 28.3015 23.4734L27.1401 6.50096V6.22109C27.1612 5.74375 27.375 5.29426 27.7343 4.97174ZM26.5492 29.9106L41.5256 28.951L41.6275 28.991C42.2706 29.0015 42.8831 29.2623 43.3302 29.7159C43.7773 30.1696 44.0223 30.7789 44.0114 31.4099C43.4213 40.0096 37.1164 47.195 28.5362 49.0461C19.9561 50.8972 11.1604 46.9698 6.94751 39.4063C5.70874 37.2279 4.92593 34.8287 4.64502 32.3495C4.53607 31.6148 4.48837 30.8727 4.50239 30.1305C4.53079 20.986 11.0414 13.093 20.1512 11.1589C21.254 10.9525 22.3596 11.5031 22.8408 12.4984C22.9606 12.6789 23.0564 12.8738 23.126 13.0781C23.2968 15.7141 23.474 18.3252 23.6503 20.9253C23.7896 22.9787 23.9285 25.0253 24.0633 27.0718C24.0564 27.5539 24.1322 28.0338 24.2875 28.4912C24.6531 29.3912 25.5631 29.9623 26.5492 29.9106Z"
+										  fill="#69B99D"/>
+								</g>
+							</g>
+						</svg>
+						<div class="title _t-h3">Efficient</div>
+						<div class="text">
+							Schedule visits to multiple properties at once in one day without having to call them one by
+							one. Check everything and find the best properties for rent
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="about">
+		<div class="container">
+			<div class="row _h-gap-xl _h-jc-sb">
+				<div class="about--picture ">
+					<div class="about--ticket col _h-ai-c">
+						<!--	Зачем он нужен?		-->
+						<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="34 34 34 34">
+							<g filter="url(#a)">
+								<path fill="#69B99D" fill-rule="evenodd" d="M46.227 38.666h11.56c4.52 0 7.546 3.174 7.546 7.894v10.895c0 4.705-3.026 7.878-7.546 7.878h-11.56c-4.52 0-7.56-3.173-7.56-7.878V46.56c0-4.72 3.04-7.894 7.56-7.894Zm5.013 17.32 6.333-6.333a1.175 1.175 0 0 0 0-1.653 1.175 1.175 0 0 0-1.653 0l-5.507 5.507-2.333-2.334a1.175 1.175 0 0 0-1.653 0 1.175 1.175 0 0 0 0 1.654l3.173 3.16c.227.226.52.333.813.333.307 0 .6-.107.827-.334Z" clip-rule="evenodd"/>
+							</g>
+						</svg>
+
+
+						<div class="title _t-title-ticket">
+							4.8
+						</div>
+						<data class="rating p-rating" value="5">
+							<svg class="rating--icon" width="18" height="18" viewBox="0 0 54 54" fill="none"
+								 xmlns="http://www.w3.org/2000/svg">
+								<g id="Iconly/Bold/Star">
+									<g id="Star">
+										<path id="Star_2"
+											  d="M40.3166 32.2202C39.7339 32.785 39.4661 33.6017 39.5989 34.4027L41.5991 45.4727C41.7679 46.411 41.3719 47.3605 40.5866 47.9027C39.8171 48.4652 38.7934 48.5327 37.9541 48.0827L27.9889 42.8852C27.6424 42.7007 27.2576 42.6017 26.8639 42.5905H26.2541C26.0426 42.622 25.8356 42.6895 25.6466 42.793L15.6791 48.0152C15.1864 48.2627 14.6284 48.3505 14.0816 48.2627C12.7496 48.0107 11.8609 46.7417 12.0791 45.403L14.0816 34.333C14.2144 33.5252 13.9466 32.704 13.3639 32.1302L5.23912 24.2552C4.55962 23.596 4.32337 22.606 4.63387 21.7127C4.93537 20.8217 5.70487 20.1715 6.63412 20.0252L17.8166 18.403C18.6671 18.3152 19.4141 17.7977 19.7966 17.0327L24.7241 6.93024C24.8411 6.70524 24.9919 6.49824 25.1741 6.32274L25.3766 6.16524C25.4824 6.04824 25.6039 5.95149 25.7389 5.87274L25.9841 5.78274L26.3666 5.62524H27.3139C28.1599 5.71299 28.9046 6.21924 29.2939 6.97524L34.2866 17.0327C34.6466 17.7685 35.3464 18.2792 36.1541 18.403L47.3366 20.0252C48.2816 20.1602 49.0714 20.8127 49.3841 21.7127C49.6789 22.615 49.4246 23.605 48.7316 24.2552L40.3166 32.2202Z"
+											  fill="#69B99D"/>
+									</g>
+								</g>
+							</svg>
+							<svg class="rating--icon" width="18" height="18" viewBox="0 0 54 54" fill="none"
+								 xmlns="http://www.w3.org/2000/svg">
+								<g id="Iconly/Bold/Star">
+									<g id="Star">
+										<path id="Star_2"
+											  d="M40.3166 32.2202C39.7339 32.785 39.4661 33.6017 39.5989 34.4027L41.5991 45.4727C41.7679 46.411 41.3719 47.3605 40.5866 47.9027C39.8171 48.4652 38.7934 48.5327 37.9541 48.0827L27.9889 42.8852C27.6424 42.7007 27.2576 42.6017 26.8639 42.5905H26.2541C26.0426 42.622 25.8356 42.6895 25.6466 42.793L15.6791 48.0152C15.1864 48.2627 14.6284 48.3505 14.0816 48.2627C12.7496 48.0107 11.8609 46.7417 12.0791 45.403L14.0816 34.333C14.2144 33.5252 13.9466 32.704 13.3639 32.1302L5.23912 24.2552C4.55962 23.596 4.32337 22.606 4.63387 21.7127C4.93537 20.8217 5.70487 20.1715 6.63412 20.0252L17.8166 18.403C18.6671 18.3152 19.4141 17.7977 19.7966 17.0327L24.7241 6.93024C24.8411 6.70524 24.9919 6.49824 25.1741 6.32274L25.3766 6.16524C25.4824 6.04824 25.6039 5.95149 25.7389 5.87274L25.9841 5.78274L26.3666 5.62524H27.3139C28.1599 5.71299 28.9046 6.21924 29.2939 6.97524L34.2866 17.0327C34.6466 17.7685 35.3464 18.2792 36.1541 18.403L47.3366 20.0252C48.2816 20.1602 49.0714 20.8127 49.3841 21.7127C49.6789 22.615 49.4246 23.605 48.7316 24.2552L40.3166 32.2202Z"
+											  fill="#69B99D"/>
+									</g>
+								</g>
+							</svg>
+							<svg class="rating--icon" width="18" height="18" viewBox="0 0 54 54" fill="none"
+								 xmlns="http://www.w3.org/2000/svg">
+								<g id="Iconly/Bold/Star">
+									<g id="Star">
+										<path id="Star_2"
+											  d="M40.3166 32.2202C39.7339 32.785 39.4661 33.6017 39.5989 34.4027L41.5991 45.4727C41.7679 46.411 41.3719 47.3605 40.5866 47.9027C39.8171 48.4652 38.7934 48.5327 37.9541 48.0827L27.9889 42.8852C27.6424 42.7007 27.2576 42.6017 26.8639 42.5905H26.2541C26.0426 42.622 25.8356 42.6895 25.6466 42.793L15.6791 48.0152C15.1864 48.2627 14.6284 48.3505 14.0816 48.2627C12.7496 48.0107 11.8609 46.7417 12.0791 45.403L14.0816 34.333C14.2144 33.5252 13.9466 32.704 13.3639 32.1302L5.23912 24.2552C4.55962 23.596 4.32337 22.606 4.63387 21.7127C4.93537 20.8217 5.70487 20.1715 6.63412 20.0252L17.8166 18.403C18.6671 18.3152 19.4141 17.7977 19.7966 17.0327L24.7241 6.93024C24.8411 6.70524 24.9919 6.49824 25.1741 6.32274L25.3766 6.16524C25.4824 6.04824 25.6039 5.95149 25.7389 5.87274L25.9841 5.78274L26.3666 5.62524H27.3139C28.1599 5.71299 28.9046 6.21924 29.2939 6.97524L34.2866 17.0327C34.6466 17.7685 35.3464 18.2792 36.1541 18.403L47.3366 20.0252C48.2816 20.1602 49.0714 20.8127 49.3841 21.7127C49.6789 22.615 49.4246 23.605 48.7316 24.2552L40.3166 32.2202Z"
+											  fill="#69B99D"/>
+									</g>
+								</g>
+							</svg>
+							<svg class="rating--icon" width="18" height="18" viewBox="0 0 54 54" fill="none"
+								 xmlns="http://www.w3.org/2000/svg">
+								<g id="Iconly/Bold/Star">
+									<g id="Star">
+										<path id="Star_2"
+											  d="M40.3166 32.2202C39.7339 32.785 39.4661 33.6017 39.5989 34.4027L41.5991 45.4727C41.7679 46.411 41.3719 47.3605 40.5866 47.9027C39.8171 48.4652 38.7934 48.5327 37.9541 48.0827L27.9889 42.8852C27.6424 42.7007 27.2576 42.6017 26.8639 42.5905H26.2541C26.0426 42.622 25.8356 42.6895 25.6466 42.793L15.6791 48.0152C15.1864 48.2627 14.6284 48.3505 14.0816 48.2627C12.7496 48.0107 11.8609 46.7417 12.0791 45.403L14.0816 34.333C14.2144 33.5252 13.9466 32.704 13.3639 32.1302L5.23912 24.2552C4.55962 23.596 4.32337 22.606 4.63387 21.7127C4.93537 20.8217 5.70487 20.1715 6.63412 20.0252L17.8166 18.403C18.6671 18.3152 19.4141 17.7977 19.7966 17.0327L24.7241 6.93024C24.8411 6.70524 24.9919 6.49824 25.1741 6.32274L25.3766 6.16524C25.4824 6.04824 25.6039 5.95149 25.7389 5.87274L25.9841 5.78274L26.3666 5.62524H27.3139C28.1599 5.71299 28.9046 6.21924 29.2939 6.97524L34.2866 17.0327C34.6466 17.7685 35.3464 18.2792 36.1541 18.403L47.3366 20.0252C48.2816 20.1602 49.0714 20.8127 49.3841 21.7127C49.6789 22.615 49.4246 23.605 48.7316 24.2552L40.3166 32.2202Z"
+											  fill="#69B99D"/>
+									</g>
+								</g>
+							</svg>
+							<svg class="rating--icon" width="18" height="18" viewBox="0 0 54 54" fill="none"
+								 xmlns="http://www.w3.org/2000/svg">
+								<g id="Iconly/Bold/Star">
+									<g id="Star">
+										<path id="Star_2"
+											  d="M40.3166 32.2202C39.7339 32.785 39.4661 33.6017 39.5989 34.4027L41.5991 45.4727C41.7679 46.411 41.3719 47.3605 40.5866 47.9027C39.8171 48.4652 38.7934 48.5327 37.9541 48.0827L27.9889 42.8852C27.6424 42.7007 27.2576 42.6017 26.8639 42.5905H26.2541C26.0426 42.622 25.8356 42.6895 25.6466 42.793L15.6791 48.0152C15.1864 48.2627 14.6284 48.3505 14.0816 48.2627C12.7496 48.0107 11.8609 46.7417 12.0791 45.403L14.0816 34.333C14.2144 33.5252 13.9466 32.704 13.3639 32.1302L5.23912 24.2552C4.55962 23.596 4.32337 22.606 4.63387 21.7127C4.93537 20.8217 5.70487 20.1715 6.63412 20.0252L17.8166 18.403C18.6671 18.3152 19.4141 17.7977 19.7966 17.0327L24.7241 6.93024C24.8411 6.70524 24.9919 6.49824 25.1741 6.32274L25.3766 6.16524C25.4824 6.04824 25.6039 5.95149 25.7389 5.87274L25.9841 5.78274L26.3666 5.62524H27.3139C28.1599 5.71299 28.9046 6.21924 29.2939 6.97524L34.2866 17.0327C34.6466 17.7685 35.3464 18.2792 36.1541 18.403L47.3366 20.0252C48.2816 20.1602 49.0714 20.8127 49.3841 21.7127C49.6789 22.615 49.4246 23.605 48.7316 24.2552L40.3166 32.2202Z"
+											  fill="#69B99D"/>
+									</g>
+								</g>
+							</svg>
+						</data>
+
+						<span class="ticket--subtitle">Trusted on</span>
+						<span class="ticket--title">500+ Reviews</span>
+					</div>
+					<picture>
+						<img src="img/Rectangle%20230.jpg" width="609" height="475" alt="Apartment">
+					</picture>
+					<div class="about--notice row">
+						<div class="row _h-ai-c _h-gap-sm">
+							<div class="title _t-h2">
+								250+
+							</div>
+							<div class="subtitle">
+								Property <br>
+								Sale
+							</div>
+						</div>
+						<div class="row _h-ai-c _h-gap-sm">
+							<div class="title _t-h2">
+								550+
+							</div>
+							<div class="subtitle">
+								Apartmen <br>
+								Rent
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="about--text col _h-jc-c">
+					<div class="tag">
+						ABOUT US
+					</div>
+					<div class="title _t-h2">
+						How much is your property worth now?
+					</div>
+					<div class="text">
+						We have built our reputation as true local area experts. We have gained more knowledge about
+						buyer interests, our neighborhood and the market than any other brand because we live locally
+						and work for local people.
+					</div>
+					<button type="button" class="btn __primary">
+						Learn More
+					</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="comments">
+		<div class="container">
+			<div class="col">
+				<div class="tag">
+					CUSTOMER TESTIMONIAL
+				</div>
+				<div class="row comments--header _h-w-100 _h-jc-sb">
+					<div class="title _t-h2">
+						Peopel say about us?
+					</div>
+					<a href="#" class="link">
+						<span>Learn More</span>
+						<svg class="icon" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd"
+								  d="M20.0001 10C20.0001 15.52 15.5101 20 10.0001 20L9.72036 19.9962C4.32954 19.8478 0.00012207 15.4264 0.00012207 10C0.00012207 4.49 4.48012 0 10.0001 0C15.5101 0 20.0001 4.49 20.0001 10ZM8.02012 6C7.73012 6.3 7.73012 6.77 8.03012 7.06L10.9801 10L8.03012 12.94C7.73012 13.23 7.73012 13.71 8.02012 14C8.32012 14.3 8.79012 14.3 9.08012 14L12.5701 10.53C12.7101 10.39 12.7901 10.2 12.7901 10C12.7901 9.8 12.7101 9.61 12.5701 9.47L9.08012 6C8.94012 5.85 8.75012 5.78 8.56012 5.78C8.36012 5.78 8.17012 5.85 8.02012 6Z"
+								  fill="#69B99D"/>
+						</svg>
+					</a>
+				</div>
+				<div class="_h-g _h-g-3">
+					<div class="card comments--card">
+						<svg class="icon" width="42" height="34" viewBox="0 0 42 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M0 34V22.625C0 18.375 0.752239 14.4583 2.25672 10.875C3.76119 7.29167 6.31045 3.66667 9.90448 0L16.4239 5.125C14.3343 7.20834 12.7463 9.16667 11.6597 11C10.5731 12.8333 9.86269 14.7083 9.52836 16.625H17.5522V34H0ZM24.4478 34V22.625C24.4478 18.375 25.2 14.4583 26.7045 10.875C28.209 7.29167 30.7582 3.66667 34.3522 0L40.8716 5.125C38.7821 7.20834 37.194 9.16667 36.1075 11C35.0209 12.8333 34.3104 14.7083 33.9761 16.625H42V34H24.4478Z" fill="#F5F5F5"/>
+						</svg>
+						<div class="title">
+							It proved to be exactly the <br> kind of home we wanted.
+						</div>
+						<div class="text">
+							We wish to express our thanks for your hard work in finding us a temporary home, which proved to be exactly what we wanted.
+						</div>
+						<div class="card--author row">
+							<picture>
+								<img src="img/avatar1.jpg" width="48" height="48" alt="Jaydon Aminoff">
+							</picture>
+							<div class="col _h-jc-c">
+								<span class="card--author-name">
+									Jaydon Aminoff
+								</span>
+								<span class="card--author-job">
+									UX Designer
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="card comments--card">
+						<svg class="icon" width="42" height="34" viewBox="0 0 42 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M0 34V22.625C0 18.375 0.752239 14.4583 2.25672 10.875C3.76119 7.29167 6.31045 3.66667 9.90448 0L16.4239 5.125C14.3343 7.20834 12.7463 9.16667 11.6597 11C10.5731 12.8333 9.86269 14.7083 9.52836 16.625H17.5522V34H0ZM24.4478 34V22.625C24.4478 18.375 25.2 14.4583 26.7045 10.875C28.209 7.29167 30.7582 3.66667 34.3522 0L40.8716 5.125C38.7821 7.20834 37.194 9.16667 36.1075 11C35.0209 12.8333 34.3104 14.7083 33.9761 16.625H42V34H24.4478Z" fill="#F5F5F5"/>
+						</svg>
+						<div class="title">
+							Nobody knows Portland and the peninsula better than David.
+						</div>
+						<div class="text">
+							My wife and I had a dream of downsizing from our house in Cape Elizabeth into a small condo closer to where we work and play in Portland.
+						</div>
+						<div class="card--author row">
+							<picture>
+								<img src="img/avatar2.jpg" width="48" height="48" alt="Alfredo Donin">
+							</picture>
+							<div class="col">
+								<span class="card--author-name">
+									Alfredo Donin
+								</span>
+								<span class="card--author-job">
+									UI Designer
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="card comments--card">
+						<svg class="icon" width="42" height="34" viewBox="0 0 42 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M0 34V22.625C0 18.375 0.752239 14.4583 2.25672 10.875C3.76119 7.29167 6.31045 3.66667 9.90448 0L16.4239 5.125C14.3343 7.20834 12.7463 9.16667 11.6597 11C10.5731 12.8333 9.86269 14.7083 9.52836 16.625H17.5522V34H0ZM24.4478 34V22.625C24.4478 18.375 25.2 14.4583 26.7045 10.875C28.209 7.29167 30.7582 3.66667 34.3522 0L40.8716 5.125C38.7821 7.20834 37.194 9.16667 36.1075 11C35.0209 12.8333 34.3104 14.7083 33.9761 16.625H42V34H24.4478Z" fill="#F5F5F5"/>
+						</svg>
+						<div class="title">
+							He keeps his client’s best <br> interests in sharp focus
+						</div>
+						<div class="text">
+							After working with David to sell my home in 2013, I was convinced that he’s the only realtor I’ll ever need. Since then, I’ve bought two properties and sold one.
+						</div>
+						<div class="card--author row">
+							<picture>
+								<img src="img/avatar3.jpg" width="48" height="48" alt="Makenna Korsgaard">
+							</picture>
+							<div class="col">
+								<span class="card--author-name">
+									Makenna Korsgaard
+								</span>
+								<span class="card--author-job">
+									UX Researcher
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer __bg-grey">
+		<div class="container">
+			<div class="row _h-jc-sb">
+				<div class="col footer--left">
+					<a href="#" title="Return to home" class="logo row _h-ai-c">
+					<span class="logo--icon">
+						M
+					</span>
+						<span class="logo--name">
+						Mulih
+					</span>
+					</a>
+					<div class="text">
+						We have built our reputation as true local area experts.
+					</div>
+					<div class="footer--title">Newsletter</div>
+					<form type="get" action="#" class="row">
+						<label class="form-label">
+							<input type="email" class="form-input" placeholder="Input your email">
+						</label>
+						<button type="submit" class="btn __primary __sm">
+							Send
+						</button>
+					</form>
+				</div>
+				<div class="row">
+					<nav class="col">
+						<li class="footer--title">Service</li>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Privacy & Policy</a></li>
+					</nav>
+					<nav class="col">
+						<li class="footer--title">Service</li>
+						<li><a href="#">Find agents</a></li>
+						<li><a href="#">Lifestyle</a></li>
+						<li><a href="#">Legal notic</a></li>
+					</nav>
+				</div>
+				<div class="col">
+					<span class="footer--title">Follow us on</span>
+					<ul class="footer--social row">
+						<li>
+							<a href="#">
+								<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M9.00003 6.67874C7.71794 6.67874 6.67861 7.71808 6.67861 9.00017C6.67861 10.2823 7.71794 11.3216 9.00003 11.3216C10.2821 11.3216 11.3215 10.2823 11.3215 9.00017C11.3215 7.71808 10.2821 6.67874 9.00003 6.67874Z" fill="#29CDB5"/>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M5.26399 2.62979C7.72693 2.35452 10.2732 2.35452 12.7361 2.62979C14.0921 2.78135 15.1858 3.84976 15.345 5.21051C15.6394 7.72837 15.6394 10.272 15.345 12.7898C15.1858 14.1506 14.0921 15.219 12.7361 15.3705C10.2732 15.6458 7.72693 15.6458 5.26399 15.3705C3.90799 15.219 2.81428 14.1506 2.65513 12.7898C2.36064 10.272 2.36064 7.72837 2.65513 5.21051C2.81428 3.84976 3.90799 2.78135 5.26399 2.62979ZM12.5715 4.71446C12.177 4.71446 11.8572 5.03425 11.8572 5.42874C11.8572 5.82323 12.177 6.14303 12.5715 6.14303C12.966 6.14303 13.2857 5.82323 13.2857 5.42874C13.2857 5.03425 12.966 4.71446 12.5715 4.71446ZM5.60718 9.00017C5.60718 7.12635 7.12621 5.60731 9.00003 5.60731C10.8739 5.60731 12.3929 7.12635 12.3929 9.00017C12.3929 10.874 10.8739 12.393 9.00003 12.393C7.12621 12.393 5.60718 10.874 5.60718 9.00017Z" fill="#29CDB5"/>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M4.42064 0.92203C6.80326 0.735625 9.1968 0.735625 11.5794 0.922031L13.1799 1.04725C14.0714 1.11699 14.8007 1.78513 14.9481 2.66711C15.3168 4.87389 15.3168 7.12657 14.9481 9.33335C14.8007 10.2153 14.0714 10.8835 13.1799 10.9532L11.5794 11.0784C9.1968 11.2648 6.80326 11.2648 4.42064 11.0784L2.82014 10.9532C1.92866 10.8835 1.19936 10.2153 1.05199 9.33335C0.683272 7.12657 0.683272 4.87389 1.05199 2.66711C1.19936 1.78513 1.92866 1.11699 2.82014 1.04725L4.42064 0.92203ZM6.57144 7.76462V4.23584C6.57144 4.06928 6.75315 3.9664 6.89597 4.05209L9.83662 5.81648C9.97533 5.89971 9.97533 6.10075 9.83662 6.18398L6.89597 7.94837C6.75315 8.03406 6.57144 7.93118 6.57144 7.76462Z" fill="#29CDB5"/>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M8.28573 0.857422H6.14287C5.19567 0.857422 4.28727 1.2337 3.61749 1.90347C2.94772 2.57324 2.57145 3.48165 2.57145 4.42885V6.57171H0.428589V9.42885H2.57145V15.1431H5.42859V9.42885H7.57145L8.28573 6.57171H5.42859V4.42885C5.42859 4.23941 5.50384 4.05773 5.6378 3.92377C5.77175 3.78982 5.95343 3.71456 6.14287 3.71456H8.28573V0.857422Z" fill="#29CDB5"/>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
 
 </body>
 </html>

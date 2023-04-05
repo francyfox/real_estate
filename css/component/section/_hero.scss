@@ -1,0 +1,22 @@
+.hero {
+  padding-top: 0;
+  padding-bottom: 108px;
+  background: url("../img/hero-banner.png") bottom right / auto no-repeat, var(--c-grey-800),;
+
+  .tag {
+    margin-bottom: 36px;
+  }
+
+  .title {
+    max-width: 50%;
+    margin-bottom: 24px;
+    color: rgb(var(--c-rgb-title));
+    letter-spacing: 0.74px;
+  }
+
+  .text {
+    max-width: 490px;
+    margin-bottom: 64px;
+    color: rgba(var(--c-rgb-title), 0.8);
+  }
+}

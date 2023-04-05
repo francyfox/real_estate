@@ -1,0 +1,12 @@
+.tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--p-tag);
+  text-transform: uppercase;
+  background: var(--c-grey-700);
+  color: rgb(var(--c-rgb-primary-800));
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}

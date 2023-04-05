@@ -1,0 +1,63 @@
+.comments {
+  .tag {
+    margin-bottom: 16px;
+  }
+
+  &--header {
+    margin-bottom: 48px;
+
+    .title {
+      letter-spacing: 0.8px;
+    }
+  }
+
+  &--card {
+    padding: 24px;
+    box-shadow: 0 0 0 1px var(--c-grey-800);
+
+    .icon {
+      margin-bottom: 24px;
+    }
+
+    .title {
+      margin-bottom: 16px;
+      color: rgb(var(--c-rgb-title));
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.5;
+      letter-spacing: 0.6px;
+    }
+
+    .text {
+      margin-bottom: 24px;
+      color: rgb(var(--c-rgb-title));
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+
+  .card--author {
+    picture {
+      margin-right: 14px;
+    }
+
+    &-name {
+      margin-bottom: 14px;
+      color: rgb(var(--c-rgb-hero));
+      font-size: 16px;
+      font-weight: 600;
+      font-family: 'Nunito Sans', sans-serif;
+    }
+
+    &-job {
+      color: var(--c-grey-900);
+      font-weight: 400;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 12px;
+    }
+  }
+
+  ._h-g {
+    gap: 32px;
+  }
+}

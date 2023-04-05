@@ -1,0 +1,72 @@
+.about {
+  padding-top: 218px;
+  padding-bottom: 0;
+
+  &--picture {
+    position: relative;
+  }
+
+  &--ticket {
+    padding: 5px 32px 46px;
+    top: -102px;
+    left: 96px;
+    position: absolute;
+    background: var(--c-white);
+
+    > svg {
+      margin-bottom: 17px;
+    }
+
+    .title {
+      font-weight: 400;
+      margin-bottom: 5px;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .rating {
+      margin-bottom: 16px;
+    }
+
+    .ticket--subtitle {
+      margin-bottom: 8px;
+      font-size: 16px;
+      font-weight: 400;
+      color: var(--c-grey-900);
+    }
+
+    .ticket--title {
+      color: rgb(var(--c-rgb-hero));
+    }
+  }
+
+  &--notice {
+    padding: 14px 32px 21px;
+    bottom: -4px;
+    right: 0;
+    position: absolute;
+    gap: 42px;
+    background: var(--c-white);
+
+    .subtitle {
+      color: var(--c-grey-900);
+      line-height: 1.6;
+    }
+  }
+
+  &--text {
+    max-width: 530px;
+
+    .tag {
+      margin-bottom: 16px;
+    }
+
+    .title {
+      margin-bottom: 16px;
+      letter-spacing: 1.2px;
+    }
+
+    .text {
+      margin-bottom: 54px;
+    }
+  }
+}
