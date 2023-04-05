@@ -24,6 +24,10 @@
   display: grid;
 }
 
+._h-d-n {
+  display: none;
+}
+
 ._h-g-3 {
   grid-template-columns: repeat(3, var(--w-card));
 }
